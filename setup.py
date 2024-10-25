@@ -20,7 +20,7 @@ setup(
     license="MIT",
     version="0.0.0",
     description="chatbot is being created",
-    author="Sunny Savita",
+    author="Yossra",
     packages=find_packages(),
     install_requires=get_requirement_list()
 )
