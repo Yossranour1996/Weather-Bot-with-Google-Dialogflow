@@ -6,9 +6,11 @@ from weather_data import WeatherData
 
 app = Flask(__name__)
 
+object = WeatherData()
+
 @app.route('/')
 def index():
-    return 'Web App with Python Flask!'
+    return 'Web App with Python Flask by Yossra!'
 
 # geting and sending response to dialogflow
 @app.route('/webhook', methods=['POST'])
@@ -28,7 +30,7 @@ def webhook():
     return r
 
 #if __name__ == '__main__':
-    object=WeatherData()
+    # object=WeatherData()
     #port = int(os.getenv('PORT', 5000))
     #print("Starting app on port %d" % port)
     #app.run(debug=True)

@@ -6,7 +6,7 @@ import sys
 
 class WeatherData:
     def __init__(self):
-        self.owmapikey='c8537154778558a3c9e30c03f18a1672'
+        self.owmapikey='0df36f13e6e75c47a7d2046273010c69'
         self.owm = pyowm.OWM(self.owmapikey)
     
     '''
